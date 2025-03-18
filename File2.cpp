@@ -57,6 +57,6 @@ int main()
         n = rand() % 10;
         perulanganDo++;
     } while (n < 7);
-    cout << "Jumlah perulangan = " << perulanganWhile << endl;
+    cout << "Jumlah perulangan = " << perulanganDo << endl;
     cout << "Nilai n terakhir" << n << endl;
 }
