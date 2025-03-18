@@ -30,7 +30,12 @@ int main()
         switch (pilihan)
         {
         case 1:
-            /* code */
+            cout << "Hitung luas persegi panjang" << endl;
+            cout << "Masukkan panjang = ";
+            cin >> panjang;
+            cout << "Masukkan lebar = ";
+            cin >> lebar;
+            cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
             break;
         case 2:
             /* code */
