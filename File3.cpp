@@ -13,4 +13,34 @@ float luaslingkaran(float a)
 
 int main()
 {
+    int pilihan;
+    float panjang, lebar;
+    float jejari;
+
+    do
+    {
+        cout << "Menu" << endl;
+        cout << "1. Luas Persegi Panjang" << endl;
+        cout << "2. Luas Lingkaran" << endl;
+        cout << "3. Exit" << endl;
+
+        cout << "Pilihan (1/2/3) = ";
+        cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1:
+            /* code */
+            break;
+        case 2:
+            /* code */
+            break;
+        case 3:
+            /* code */
+            break;
+
+        default:
+            break;
+        }
+    } while (pilihan != 3);
 }
